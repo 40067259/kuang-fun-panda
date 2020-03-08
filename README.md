@@ -1,2 +1,2 @@
-# kuang-fun-panda
+# kung-fu-panda
 oop website game using javascript
