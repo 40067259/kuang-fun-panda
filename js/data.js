@@ -1,5 +1,5 @@
 let GAME_WIDTH = 450;
-let GAME_HEIGHT = 500;
+let GAME_HEIGHT = 560;
 
 let ENEMY_WIDTH = 75;
 let ENEMY_HEIGHT = 100;

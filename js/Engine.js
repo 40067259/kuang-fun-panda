@@ -46,7 +46,17 @@ class Engine {
     if (this.isPlayerDead()) {
       this.bgmusic.pause();
       this.collision.play();
-      document.removeEventListener.window.alert("game over");
+     // document.removeEventListener.window.alert("game over");
+      let finish = document.createElement('p');
+      finish.innerText = "Game Over";
+      finish.style.font.fontsize("80px");
+      finish.style.fontStyle.big()
+      finish.style.font.fontcolor("black")
+      finish.style.zIndex = "2000"
+      finish.style.top = "210px"
+      finish.style.right = "160px"
+      finish.style.position = "absolute"
+      document.getElementById("score").append(finish)
       return;
     }
 
